@@ -1,0 +1,48 @@
+VIVARO CONSULTING, SAJT
+=======================
+
+Sadržaj foldera
+---------------
+index.html                  početna stranica
+assets/vivaro.css           izgled celog sajta (boje, fontovi, raspored)
+assets/site.js              zajedničke funkcije (meni, pozadina)
+img/                        fotografije
+
+Ceo folder se postavlja na hosting tačno ovakav kakav jeste.
+
+
+FOTOGRAFIJE
+-----------
+Fotografije se pojavljuju same čim se fajl sa tačnim imenom ubaci u folder img/.
+Red sa fotografijama sa terena je za sada uklonjen iz sajta. Ako budete imali prave
+fotografije sa posla, red se može vratiti (sačuvan je u ranijoj verziji).
+
+  img/nikola-portret.jpg   portret Nikole Jerotijevića, već ubačen
+  img/zorana-portret.jpg   portret Zorane Stanković, već ubačen
+  img/og-vivaro.jpg        slika za deljenje linka na LinkedInu, već napravljena
+  img/favicon-*.png, img/apple-touch-icon.png   ikonice sajta, već napravljene
+
+Pre ubacivanja smanjite fotografije na navedenu veličinu (do oko 400 KB po fajlu),
+da bi se sajt brzo učitavao na telefonu.
+
+
+TEKSTOVI (UVIDI)
+----------------
+Deo sa tekstovima je za sada skinut sa sajta. Šablon i dva gotova teksta su sačuvani
+i mogu se vratiti kad krenete sa redovnim objavljivanjem.
+
+
+PRE OBJAVE
+----------
+- Društvene mreže u footeru (index.html, deo "ftr__soc"): LinkedIn privremeno vodi na
+  Nikolin profil; kad otvorite stranicu Vivaro Group, zamenite adresu. Instagram ikonica
+  je sakrivena (atribut hidden): upišite adresu umesto "#" i obrišite reč hidden.
+- Na dan objave promeniti datum u Politici privatnosti ("Važi od ...").
+- Forma za sada otvara mejl program posetioca. Za pravo primanje upita povežite je
+  na Formspree, Netlify Forms ili sopstveni servis.
+- Pravni podaci u footeru (poslovno ime, sedište, MB, PIB) i Politika privatnosti
+  preuzeti su iz APR-a. Ako promenite šifru delatnosti, poslovno ime ili sedište,
+  ažurirajte ih u prozoru "Podaci o firmi" i u Politici privatnosti (index.html).
+- Fontovi su u folderu assets/fonts i učitavaju se sa vašeg servera, bez Google-a.
+- Adrese u kodu podrazumevaju domen https://vivarogroup.rs/. Ako sajt ide na drugu
+  adresu, promenite "canonical" i "og:url" u index.html.
